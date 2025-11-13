@@ -68,7 +68,7 @@ Click here to run the complete notebook with pretrained models:
 ### Option 2: Local Installation
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/neural-tabular-compression.git
+git clone https://github.com/mukund01001/Neural-Tabular-Compression
 cd neural-tabular-compression
 
 # Install dependencies
