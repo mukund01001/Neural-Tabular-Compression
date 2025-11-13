@@ -95,6 +95,7 @@ For reproducibility, the exact generation code with fixed random seeds (42) is i
 ---
 
 ## 🏗️ Architecture
+![Autoencoder Architecture](Figures/architecture.png)
 
 Our autoencoder architecture:
 
@@ -111,7 +112,7 @@ Decoder: k → 256 → 512
     ↓
 Outputs: 10 categorical heads + 1 continuous head
 ```
-![Autoencoder Architecture](Figures/architecture.png)
+
 
 
 
