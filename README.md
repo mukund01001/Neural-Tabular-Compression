@@ -112,6 +112,11 @@ Decoder: k → 256 → 512
 Outputs: 10 categorical heads + 1 continuous head
 ```
 
+
+![Autoencoder Architecture](figures/architecture.png)
+
+
+
 **Post-processing:**
 1. 8-bit quantization of latent codes
 2. LZMA entropy coding
@@ -143,7 +148,8 @@ Outputs: 10 categorical heads + 1 continuous head
 2. **All configurations maintain >99% accuracy** vs. PCA's 68.7%
 3. **Near-optimal compression efficiency** (>100% vs. Shannon entropy bound)
 4. **Tunable compression-accuracy trade-off** via bottleneck size
-
+**Compression and accuracy comparison:**  
+![Compression & Accuracy Comparison](figures/results_comparison.png)
 ---
 
 ## 📁 Files Description
