@@ -111,9 +111,9 @@ Decoder: k → 256 → 512
     ↓
 Outputs: 10 categorical heads + 1 continuous head
 ```
-
-
 ![Autoencoder Architecture](Figures/architecture.png)
+
+
 
 
 
