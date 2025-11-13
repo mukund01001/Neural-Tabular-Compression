@@ -113,7 +113,7 @@ Outputs: 10 categorical heads + 1 continuous head
 ```
 
 
-![Autoencoder Architecture](figures/architecture.png)
+![Autoencoder Architecture](Figures/architecture.png)
 
 
 
@@ -149,7 +149,7 @@ Outputs: 10 categorical heads + 1 continuous head
 3. **Near-optimal compression efficiency** (>100% vs. Shannon entropy bound)
 4. **Tunable compression-accuracy trade-off** via bottleneck size
 **Compression and accuracy comparison:**  
-![Compression & Accuracy Comparison](figures/results_comparison.png)
+![Compression & Accuracy Comparison](Figures/results_comparison.png)
 ---
 
 ## 📁 Files Description
